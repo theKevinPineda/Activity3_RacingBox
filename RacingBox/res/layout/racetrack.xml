@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="#000000"
+        android:text="Box1: "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/box1" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Box2: "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/box2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/box2" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Box3: "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/box3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/box3" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Box4: "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/box4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/box4" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Box5: "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/box5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/box5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff" 
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
